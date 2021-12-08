@@ -18,13 +18,48 @@ module.exports = {
           lightest: '#E0E0E0',
         },
         white: {
-          dark: '#F1F1F1',
-          DEFAULT: '#FAFAFA',
+          darkest: '#F1F1F1',
+          dark: '#FAFAFA',
+          DEFAULT: '#ffffff',
         }
       },
       backgroundImage: {
         'mmm-home': "url('/images/mmm.gif')",
-      }
+        'mmm-about': "url('/images/manfred-background.png')",
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': {
+              opacity: '0',
+          },
+          '100%': {
+              opacity: '1',
+          },
+        },
+        'fade-in-up': {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+              opacity: '1',
+          },
+        },
+        'fade-border-bottom': {
+          '0%': {
+            visibility: 'hidden',
+            transform: 'scaleX(0)',
+          },
+          '100%': {
+            visibility: 'visible',
+            transform: 'scaleX(1)',
+          },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 1s ease-in',
+        'fade-in-up': 'fade-in-up 1s ease-in',
+        'fade-border-bottom': 'fade-border-bottom 1s ease-in',
+      },
     },
   },
   variants: {
