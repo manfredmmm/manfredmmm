@@ -19,8 +19,11 @@ module.exports = {
         },
         white: {
           dark: '#F1F1F1',
-          DEFAULT: '#FAFAFA'
+          DEFAULT: '#FAFAFA',
         }
+      },
+      backgroundImage: {
+        'mmm-home': "url('/images/mmm.gif')",
       }
     },
   },

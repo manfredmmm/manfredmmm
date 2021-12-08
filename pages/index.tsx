@@ -24,55 +24,39 @@ export const Home: NextPage = () => {
         <meta name="twitter:image" content="http://manfredmmm.com/images/manfred-background.png" />
         <meta name="twitter:domain" content="http://manfredmmm.com" />
         <link rel="icon" href="/icons/mmm-favicon.png" />
-        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className="m-2 bg-white">
-
-        <Image 
-          layout="fill"
-          src="/images/mmm.gif"
-          alt="manfredmmm web developer"
-          objectFit="cover"
-          objectPosition="center"
-          className="z-0"
-        />
-
-        <div className="container mx-auto z-10">
-          <h1>
-            <span className="font-bold">Hi!</span>
-            <span>I´m manfred miravitllas mas</span>
-          </h1>
-          <h2>
-            web developer
-          </h2>
-
-          <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-gray-500">You have a new message!</p>
+      <main className="p-2 bg-white h-screen">
+        <div className="bg-mmm-home bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
+            <div className="text-white">
+              <h1 className="text-center">
+                <span className="mr-1 text-3xl">Hi!</span>
+                <span>I'm manfred miravitllas mas</span>
+              </h1>
+              <h2 className="text-center">
+                web developer
+              </h2>
+              <div className="flex text-center">
+                <nav className="flex space-x-4">
+                  <Link href="/about">
+                    <a>about</a>
+                  </Link>
+                  <Link href="/work">
+                    <a>work</a>
+                  </Link>
+                  <Link href="/can">
+                    <a>can</a>
+                  </Link>
+                  <Link href="/contact">
+                    <a>contact</a>
+                  </Link>
+                </nav>
+              </div>
             </div>
-          </div>
-
-          <nav>
-            <Link href="/about">
-              <a>about</a>
-            </Link>
-            <Link href="/work">
-              <a>work</a>
-            </Link>
-            <Link href="/can">
-              <a>can</a>
-            </Link>
-            <Link href="/contact">
-              <a>contact</a>
-            </Link>
-          </nav>
         </div>
-
       </main>
     </div>
   )
