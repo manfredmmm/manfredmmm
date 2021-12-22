@@ -42,10 +42,8 @@ const Layout = ({
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
     </Head>
-    <body>
-      <Header />
-      <main>{children}</main>
-    </body>
+    <Header />
+    <main>{children}</main>
   </>
 );
 

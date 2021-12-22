@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
+import Layout from 'src/components/layout'
 
 const Can: NextPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>Can</h1>
-    </div>
+    </Layout>
   );
 }
   
