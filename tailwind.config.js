@@ -25,6 +25,10 @@ module.exports = {
       backgroundImage: {
         'mmm-home': "url('/images/mmm.gif')",
         'mmm-about': "url('/images/manfred-background.png')",
+        'right-black': "url('/icons/right-black.svg')",
+        'right-white': "url('/icons/right-white.svg')",
+        'left-black': "url('/icons/left-black.svg')",
+        'left-white': "url('/icons/left-white.svg')",
       },
       keyframes: {
         'fade-in': {

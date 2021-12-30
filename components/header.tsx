@@ -1,19 +1,25 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import styles from 'components/header.module.css';
 
 const Header = () => {
   const [show, setShow] = useState(false);
+
+  console.log(styles);
+
   return (
-    <header className="flex text-center">
-      <div className="absolute top-2 right-2 text-black">
-        <a 
-          href="#"
-          onClick={() => setShow(!show)}
-        >
-          burger icon
-        </a>
-      </div>
-      <nav className={`gspace-x-4 ${show ? 'flex' : 'hidden'}`}>
+    <header className="flex text-center text-black">
+      <a 
+        href="#"
+        onClick={() => setShow(!show)}
+        className={`${show ? styles.active : styles.nav }`}
+      >
+        <span></span>
+      </a>
+      <nav className={`${show ? 'flex' : 'hidden'} gspace-x-4`}>
+        <Link href="/">
+          <a className="mr-2">home</a>
+        </Link>
         <Link href="/about">
           <a className="mr-2">about</a>
         </Link>

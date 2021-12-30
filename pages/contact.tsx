@@ -1,10 +1,14 @@
 import type { NextPage } from 'next'
-import Layout from 'src/components/layout'
+import Layout from 'components/layout'
+import Navigation from 'components/navigation'
 
 const Contact: NextPage = () => {
   return (
     <Layout>
-      <h1>Contact</h1>
+      <div className="bg-gray-darkest text-white-dark h-full">
+        <h1>Contact</h1>
+      </div>
+      <Navigation prev="/can" next="" />
     </Layout>
   );
 }

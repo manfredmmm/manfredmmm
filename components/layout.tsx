@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import Head from 'next/head'
-import Header from 'src/components/header'
+import Header from 'components/header'
 
 type LayoutProps = {
   children: ReactNode;
@@ -56,7 +56,7 @@ const Layout = ({
       />
     </Head>
     <Header />
-    <main>{children}</main>
+    <main className="p-2 h-screen text-grey-darkest">{children}</main>
   </>
 );
 

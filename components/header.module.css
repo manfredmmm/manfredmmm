@@ -1,0 +1,57 @@
+a.nav {
+  top: 20px;
+  right: 40px;
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+a.nav span,
+a.nav span::before,
+a.nav span::after {
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  display: block;
+  background: black;
+  cursor: pointer;
+  content: '';
+  transition: all .4s ease-in-out;
+}
+a.nav span:before {
+  top: -7px;
+}
+a.nav span:after {
+  bottom: -7px;
+}
+a.active {
+  top: 20px;
+  right: 40px;
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+a.active span,
+a.active span::before,
+a.active span::after {
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  display: block;
+  background: transparent;
+  cursor: pointer;
+  content: '';
+  transition: all .4s ease-in-out;
+}
+a.active span:before,
+a.active span:after {
+  top: 0;
+  background: black;
+}
+a.active span:before {
+  transform: rotate(45deg);
+}
+a.active span:after {
+  transform: rotate(-45deg);
+}
