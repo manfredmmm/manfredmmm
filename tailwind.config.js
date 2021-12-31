@@ -30,6 +30,12 @@ module.exports = {
         'left-black': "url('/icons/left-black.svg')",
         'left-white': "url('/icons/left-white.svg')",
       },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '50%': '50%',
+      },
       keyframes: {
         'fade-in': {
           '0%': {
@@ -42,9 +48,11 @@ module.exports = {
         'fade-in-up': {
           '0%': {
             opacity: '0',
+            transofm: 'translateY(-1600px)'
           },
           '100%': {
-              opacity: '1',
+            opacity: '1',
+            transofm: 'translateY(0)'
           },
         },
         'fade-border-bottom': {

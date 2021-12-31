@@ -16,22 +16,34 @@ const Header = () => {
       >
         <span></span>
       </a>
-      <nav className={`${show ? 'flex' : 'hidden'} gspace-x-4`}>
-        <Link href="/">
-          <a className="mr-2">home</a>
-        </Link>
-        <Link href="/about">
-          <a className="mr-2">about</a>
-        </Link>
-        <Link href="/work">
-          <a className="mr-2">work</a>
-        </Link>
-        <Link href="/can">
-          <a className="mr-2">can</a>
-        </Link>
-        <Link href="/contact">
-          <a className="mr-2">contact</a>
-        </Link>
+      <nav className={`${show ? 'flex' : 'hidden'} fixed z-10 justify-center items-center w-screen h-screen bg-white-darkest animate-fade-in-up`}>
+        <ul>
+          <li>
+            <Link href="/">
+              <a className="block mb-2">home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              <a className="block mb-2">about</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/work">
+              <a className="block mb-2">work</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/can">
+              <a className="block mb-2">can</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact">
+              <a className="block mb-2">contact</a>
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );

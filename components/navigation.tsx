@@ -14,7 +14,7 @@ const Navigation = ({
     <Link href={prev}>
       <a 
         href="#"
-        className={`${prev === "" ? 'hidden' : 'fixed' } top-10 left-0 w-20 h-full bg-left-black bg-no-repeat bg-center bg-contain`}
+        className={`${prev === "" ? 'hidden' : 'fixed' } top-16 left-0 w-20 h-full bg-left-black bg-no-repeat bg-center bg-50%`}
       >
         <span className="hidden">left</span>
       </a>
@@ -22,7 +22,7 @@ const Navigation = ({
     <Link href={next}>
       <a 
         href="#"
-        className={`${next === "" ? 'hidden' : 'fixed' } top-10 right-0 w-20 h-full bg-right-black bg-no-repeat bg-center bg-contain`}
+        className={`${next === "" ? 'hidden' : 'fixed' } top-16 right-0 w-20 h-full bg-right-black bg-no-repeat bg-center bg-50%`}
       >
         <span className="hidden">right</span>
       </a>
