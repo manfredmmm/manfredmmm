@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <Layout>
       <div className="bg-gray-darkest bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
         <div className="text-white-dark animate-fade-in">
-          <div className="text-center">
+          <div className="flex justify-center">
             <svg className="mb-12 stroke-current text-white-dark" width="200px" height="125px" viewBox="0 0 688 438">
               <path 
                 strokeWidth="8" 
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
           </h2>
         </div>
       </div>
-      <Navigation prev="" next="/work" />
+      <Navigation prev="" next="/about" />
     </Layout>
   );
 };
