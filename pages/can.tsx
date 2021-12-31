@@ -5,8 +5,10 @@ import Navigation from 'components/navigation'
 const Can: NextPage = () => {
   return (
     <Layout>
-      <div className="bg-white-dark h-full">
-        <h1>Can</h1>
+      <div className="bg-white-dark h-full flex justify-center items-center">
+        <div>
+          <h1>Can</h1>
+        </div>
       </div>
       <Navigation prev="/work" next="/contact" />
     </Layout>
