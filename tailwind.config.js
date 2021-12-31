@@ -48,11 +48,9 @@ module.exports = {
         'fade-in-up': {
           '0%': {
             opacity: '0',
-            transofm: 'translateY(-1600px)'
           },
           '100%': {
             opacity: '1',
-            transofm: 'translateY(0)'
           },
         },
         'fade-border-bottom': {

@@ -23,7 +23,7 @@ a.nav span:before {
 a.nav span:after {
   bottom: -7px;
 }
-a.active {
+a.nav_active {
   top: 20px;
   right: 40px;
   position: fixed;
@@ -33,9 +33,9 @@ a.active {
   padding: 10px 25px 13px 0;
   z-index: 11;
 }
-a.active span,
-a.active span::before,
-a.active span::after {
+a.nav_active span,
+a.nav_active span::before,
+a.nav_active span::after {
   position: absolute;
   height: 2px;
   width: 25px;
@@ -44,14 +44,22 @@ a.active span::after {
   content: '';
   transition: all .4s ease-in-out;
 }
-a.active span:before,
-a.active span:after {
+a.nav_active span:before,
+a.nav_active span:after {
   top: 0;
   background: black;
 }
-a.active span:before {
+a.nav_active span:before {
   transform: rotate(45deg);
 }
-a.active span:after {
+a.nav_active span:after {
   transform: rotate(-45deg);
+}
+.menu {
+ transform: translateY(-2000px);
+ transition-duration: 1s;
+}
+.menu_active {
+  transform: translateY(0);
+  transition-duration: 1s;
 }

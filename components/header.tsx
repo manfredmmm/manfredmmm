@@ -12,11 +12,11 @@ const Header = () => {
       <a 
         href="#"
         onClick={() => setShow(!show)}
-        className={`${show ? styles.active : styles.nav }`}
+        className={`${show ? styles.nav_active : styles.nav }`}
       >
         <span></span>
       </a>
-      <nav className={`${show ? 'flex' : 'hidden'} fixed z-10 justify-center items-center w-screen h-screen bg-white-darkest animate-fade-in-up`}>
+      <nav className={`${show ? styles.menu_active : styles.menu } fixed z-10 top-0 left-0 justify-center items-center w-screen h-screen bg-white-darkest `}>
         <ul>
           <li>
             <Link href="/">
