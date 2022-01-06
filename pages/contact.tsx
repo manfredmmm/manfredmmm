@@ -4,13 +4,13 @@ import Navigation from 'components/navigation'
 
 const Contact: NextPage = () => {
   return (
-    <Layout>
+    <Layout title="manfredmmm - contact" textColor="white">
       <div className="bg-gray-darkest text-white-dark h-full flex justify-center items-center">
         <div>
           <h1>Contact</h1>
         </div>
       </div>
-      <Navigation prev="/can" next="" />
+      <Navigation prev="/can" next="" textColor="white" />
     </Layout>
   );
 }

@@ -4,8 +4,8 @@ import Navigation from 'components/navigation'
 
 const Can: NextPage = () => {
   return (
-    <Layout>
-      <div className="bg-white-dark h-full flex justify-center items-center">
+    <Layout title="manfredmmm - can">
+      <div className="bg-white-darkest h-full flex justify-center items-center">
         <div>
           <h1>Can</h1>
         </div>

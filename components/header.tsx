@@ -2,11 +2,18 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import styles from 'components/header.module.css';
 
-const Header = () => {
+type HeaderProps = {
+  textColor?: string;
+}
+
+/*
+bg-${textColor} after:bg-${textColor} after:top-2 before:bg-${textColor} before:bottom-2
+*/
+
+const Header = ({
+  textColor = 'black',
+}: HeaderProps) => {
   const [show, setShow] = useState(false);
-
-  console.log(styles);
-
   return (
     <header className="flex text-center text-black">
       <a 
@@ -14,9 +21,9 @@ const Header = () => {
         onClick={() => setShow(!show)}
         className={`${show ? styles.nav_active : styles.nav }`}
       >
-        <span></span>
+        <span className={`${textColor === 'white' ? 'bg-white-darkest after:bg-white-darkest before:bg-white-darkest' : 'bg-gray-darkest after:bg-gray-darkest before:bg-gray-darkest'} after:top-2 before:bottom-2`}></span>
       </a>
-      <nav className={`${show ? styles.menu_active : styles.menu } fixed z-10 top-0 left-0 justify-center items-center w-screen h-screen bg-white-darkest `}>
+      <nav className={`${show ? styles.menu_active : styles.menu} fixed z-10 top-0 left-0 justify-center items-center w-screen h-screen bg-white-darkest`}>
         <ul>
           <li>
             <Link href="/">

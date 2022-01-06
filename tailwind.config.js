@@ -20,7 +20,7 @@ module.exports = {
           darkest: '#F1F1F1',
           dark: '#FAFAFA',
           DEFAULT: '#ffffff',
-        }
+        },
       },
       backgroundImage: {
         'mmm-home': "url('/images/mmm.gif')",

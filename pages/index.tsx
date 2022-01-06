@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import React, { useState } from 'react'
 import Layout from 'components/layout'
 import Navigation from 'components/navigation'
 
@@ -6,7 +7,7 @@ import Navigation from 'components/navigation'
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <Layout textColor="white">
       <div className="bg-gray-darkest bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
         <div className="text-white-dark animate-fade-in">
           <div className="flex justify-center">
@@ -25,11 +26,11 @@ const Home: NextPage = () => {
           <h1 className="text-center mb-2">{`I'm`} Manfred Miravitllas Mas</h1>
           <h2 className="text-center mb-5">
             and I like to build great experiences at 
-            <span className="ml-1 font-extrabold">webs</span>
+            <span className="ml-1 font-extrabold">web</span>
           </h2>
         </div>
       </div>
-      <Navigation prev="" next="/about" />
+      <Navigation prev="" next="/about" textColor="white" />
     </Layout>
   );
 };

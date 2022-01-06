@@ -5,11 +5,13 @@ import Header from 'components/header'
 type LayoutProps = {
   children: ReactNode;
   title?: string;
+  textColor?: string;
 }
 
 const Layout = ({
   children,
   title = 'manfredmmm - web developer',
+  textColor = 'black'
 }: LayoutProps) => (
   <>
     <Head>
@@ -55,7 +57,7 @@ const Layout = ({
         rel="stylesheet"
       />
     </Head>
-    <Header />
+    <Header textColor={textColor}/>
     <main className="p-2 h-screen text-grey-darkest">{children}</main>
   </>
 );

@@ -13,15 +13,8 @@ a.nav span::after {
   height: 2px;
   width: 25px;
   display: block;
-  background: black;
   content: '';
   transition: all .4s ease-in-out;
-}
-a.nav span:before {
-  top: -7px;
-}
-a.nav span:after {
-  bottom: -7px;
 }
 a.nav_active {
   top: 20px;
