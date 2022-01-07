@@ -2,13 +2,18 @@ import type { NextPage } from 'next'
 import React, { useState } from 'react'
 import Layout from 'components/layout'
 import Navigation from 'components/navigation'
-
-/* bg-mmm-home */
+import { useRouter } from 'next/router'
+import en from 'locales/en'
+import es from 'locales/es'
 
 const Home: NextPage = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : es;
+
   return (
     <Layout textColor="white">
-      <div className="bg-gray-darkest bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
+      <div className="bg-mmm-home bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
         <div className="text-white-dark animate-fade-in">
           <div className="flex justify-center">
             <svg className="mb-12 stroke-current text-white-dark" width="200px" height="125px" viewBox="0 0 688 438">
@@ -21,11 +26,11 @@ const Home: NextPage = () => {
             </svg>
           </div>
           <h2 className="text-center mb-2">
-            <span className="mr-1 text-3xl">Hi!</span>
+            <span className="mr-1 text-3xl">{t.home.hi}</span>
           </h2>
-          <h1 className="text-center mb-2">{`I'm`} Manfred Miravitllas Mas</h1>
+          <h1 className="text-center mb-2">{t.home.name}</h1>
           <h2 className="text-center mb-5">
-            and I like to build great experiences at 
+            {t.home.title}
             <span className="ml-1 font-extrabold">web</span>
           </h2>
         </div>

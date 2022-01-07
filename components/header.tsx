@@ -6,10 +6,6 @@ type HeaderProps = {
   textColor?: string;
 }
 
-/*
-bg-${textColor} after:bg-${textColor} after:top-2 before:bg-${textColor} before:bottom-2
-*/
-
 const Header = ({
   textColor = 'black',
 }: HeaderProps) => {
