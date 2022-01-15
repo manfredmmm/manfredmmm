@@ -1,13 +1,16 @@
 import type { NextPage } from 'next'
 import Layout from 'components/layout'
 import Navigation from 'components/navigation'
+import useTranslation from 'next-translate/useTranslation'
 
 const Contact: NextPage = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout title="manfredmmm - contact" textColor="white">
       <div className="bg-gray-darkest text-white-dark h-full flex justify-center items-center">
         <div>
-          <h1>Contact</h1>
+          <h1>{t('contact:title')}</h1>
         </div>
       </div>
       <Navigation prev="/can" next="" textColor="white" />

@@ -10,8 +10,7 @@ const About: NextPage = () => {
     <Layout title="manfredmmm - about">
       <div className="bg-white-darkest h-full flex justify-center items-center">
         <div>
-          <h1>{t("about:title")}</h1>
-          <p>lorem ipsum</p>
+          <h1>{t('about:title')}</h1>
         </div>
       </div>
       <Navigation prev="/" next="/work" />
