@@ -1,15 +1,10 @@
 import type { NextPage } from 'next'
-import React, { useState } from 'react'
 import Layout from 'components/layout'
 import Navigation from 'components/navigation'
-import { useRouter } from 'next/router'
-import en from 'locales/en'
-import es from 'locales/es'
+import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === 'en' ? en : es;
+  const { t } = useTranslation();
 
   return (
     <Layout textColor="white">
@@ -26,11 +21,11 @@ const Home: NextPage = () => {
             </svg>
           </div>
           <h2 className="text-center mb-2">
-            <span className="mr-1 text-3xl">{t.home.hi}</span>
+            <span className="mr-1 text-3xl">Hi!</span>
           </h2>
-          <h1 className="text-center mb-2">{t.home.name}</h1>
+          <h1 className="text-center mb-2">{t("index:home")}</h1>
           <h2 className="text-center mb-5">
-            {t.home.title}
+            {t("common:greeting")}
             <span className="ml-1 font-extrabold">web</span>
           </h2>
         </div>
