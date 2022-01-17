@@ -7,7 +7,7 @@ const Can: NextPage = () => {
   const { t } = useTranslation();
 
   return (
-    <Layout title="manfredmmm - can">
+    <Layout title={`manfredmmm - ${t('common:can')}`}>
       <div className="bg-white-darkest h-full flex justify-center items-center">
         <div>
           <h1>{t('can:title')}</h1>
