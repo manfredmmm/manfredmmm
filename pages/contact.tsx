@@ -7,7 +7,7 @@ const Contact: NextPage = () => {
   const { t } = useTranslation();
 
   return (
-    <Layout title={`manfredmmm - ${t('common:contact')}`} textColor="white">
+    <Layout title={`manfredmmm - ${t('common:contact').toLowerCase()}`} textColor="white">
       <div className="bg-gray-darkest text-white-dark h-full flex justify-center items-center">
         <div>
           <h1>{t('contact:title')}</h1>

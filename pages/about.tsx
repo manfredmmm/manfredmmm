@@ -6,7 +6,7 @@ import useTranslation from 'next-translate/useTranslation'
 const About: NextPage = () => {
   const { t } = useTranslation();
   return (
-    <Layout title={`manfredmmm - ${t('common:about')}`}>
+    <Layout title={`manfredmmm - ${t('common:about').toLowerCase()}`}>
       <div className="bg-white-darkest h-full flex justify-center items-center">
         <div>
           <h1>{t('about:title')}</h1>
