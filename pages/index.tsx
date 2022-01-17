@@ -20,12 +20,12 @@ const Home: NextPage = () => {
             </svg>
           </div>
           <h2 className="text-center mb-2">
-            <span className="mr-1 text-3xl">Hi!</span>
+            <span className="mr-1 text-3xl">{t('index:hi')}</span>
           </h2>
-          <h1 className="text-center mb-2">{t('index:home')}</h1>
+          <h1 className="text-center mb-2">{t('index:im')}</h1>
           <h2 className="text-center mb-5">
-            {t('common:greeting')}
-            <span className="ml-1 font-extrabold">web</span>
+            {t('index:tagline')}
+            <span className="ml-1 font-extrabold">{t('index:web')}</span>
           </h2>
         </div>
       </div>
