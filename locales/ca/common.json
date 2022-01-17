@@ -1,3 +1,13 @@
 {
-  "greeting": "hola mon"
+  "greeting": "hola mon",
+  "home": "Inici",
+  "about": "Biografia",
+  "work": "Experiència",
+  "can": "Can I use",
+  "contact": "Contacte",
+  "b_home": "000",
+  "b_about": "001",
+  "b_work": "010",
+  "b_can": "011",
+  "b_contact": "100"
 }

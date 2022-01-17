@@ -5,7 +5,6 @@ import useTranslation from 'next-translate/useTranslation'
 
 const Work: NextPage = () => {
   const { t } = useTranslation();
-
   return (
     <Layout title="manfredmmm - work">
       <div className="bg-white-darkest h-full flex justify-center items-center">
