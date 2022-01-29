@@ -7,9 +7,14 @@ const About: NextPage = () => {
   const { t } = useTranslation();
   return (
     <Layout title={`manfredmmm - ${t('common:about').toLowerCase()}`}>
-      <div className="bg-white-darkest h-full flex justify-center items-center">
-        <div>
-          <h1>{t('about:title')}</h1>
+      <div className="bg-white-darkest h-full flex flex-row justify-center items-center pl-20 pr-20">
+        <div className="basis-1/2 h-full">
+          <figure className="bg-mmm-about bg-no-repeat bg-contain bg-bottom h-full"></figure>
+        </div>
+        <div className="basis-1/2 mr-10">
+          <h1 className="text-xl uppercase mb-6 font-heading">{t('about:title')}</h1>
+          <p className="mb-2">{t('about:p1')}</p>
+          <p>{t('about:p2')}</p>
         </div>
       </div>
       <Navigation prev="/" next="/work" />
