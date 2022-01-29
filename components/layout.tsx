@@ -50,12 +50,6 @@ const Layout = ({
       <meta name="twitter:image" content="http://manfredmmm.com/images/manfred-background.png" />
       <meta name="twitter:domain" content="http://manfredmmm.com" />
       <link rel="icon" href="/icons/mmm-favicon.png" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Raleway&display=optional"
-        rel="stylesheet"
-      />
     </Head>
     <Header textColor={textColor}/>
     <main className="p-2 h-screen text-grey-darkest">{children}</main>

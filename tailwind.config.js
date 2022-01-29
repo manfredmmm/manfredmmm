@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Raleway', ...defaultTheme.fontFamily.sans]
+        sans: ['Raleway Thin', ...defaultTheme.fontFamily.sans],
+        heading: ['Raleway Regular']
       },
       colors: {
         gray: {
@@ -19,7 +20,7 @@ module.exports = {
         white: {
           darkest: '#E6E6E6',
           dark: '#FAFAFA',
-          DEFAULT: '#ffffff',
+          DEFAULT: '#FFFFFF',
         },
       },
       backgroundImage: {
