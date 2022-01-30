@@ -1,3 +1,16 @@
 {
-  "title": "work title for realz"
+  "title": "Experience",
+  "current": "Currently",
+  "ifs": "Inforserveis - Cloud Active Reception - Software engineer",
+  "ifs_description": "A cloud active reception solution with tablet multi-brand, multi-language and compatible with the different DMS of the market. There is also a web in order to do all the administration tasks",
+  "previous": "Previously",
+  "beezy": "Beezy - Frontend developer",
+  "beezy_description": "An enterprise software solution delivering the four pillars of modern digital workplaces. Collaboration, communication, knowledge and processes",
+  "adverway": "Adverway - Web developer and design",
+  "adverway_description": "Platform to create branded games playable on web, mobile and Facebook",
+  "imesmes": "imesmes - Web developer",
+  "imesmes_description": "Websites, social media campaigns and Facebook applications for agencies and customers",
+  "imesmes_description_2": "Development of application to create text, image or video Facebook contests templates",
+  "i3dat": "i3dat - Web and desktop developer",
+  "i3dat_description": "Internal applications to improve the productivity and processes’ automation"
 }
