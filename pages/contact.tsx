@@ -12,7 +12,7 @@ const Contact: NextPage = () => {
   return (
     <Layout title={`manfredmmm - ${t('common:contact').toLowerCase()}`} textColor="white">
       <div className="bg-gray-darkest text-white-dark h-full flex justify-center items-center">
-        <div>
+        <div className="animate-fade-in">
           <h1 className="text-xl font-heading text-center mb-10 uppercase pb-2 border-b-2">{t('contact:title')}</h1>
           <p className="mb-5 text-center">
             <a href={`mailto:${t('contact:email')}`}>{t('contact:email')}</a>

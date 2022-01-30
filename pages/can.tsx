@@ -9,7 +9,7 @@ const Can: NextPage = () => {
   return (
     <Layout title={`manfredmmm - ${t('common:can').toLowerCase()}`}>
       <div className="bg-white-darkest h-full flex justify-center items-center">
-        <div>
+        <div className="animate-fade-in">
           <h1>{t('can:title')}</h1>
         </div>
       </div>

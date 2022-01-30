@@ -6,9 +6,9 @@ import useTranslation from 'next-translate/useTranslation'
 const Work: NextPage = () => {
   const { t } = useTranslation();
   return (
-    <Layout title={`manfredmmm - ${t('common:work').toLowerCase()}`}>
-      <div className="bg-white-darkest h-full flex justify-center items-center">
-        <div className="max-w-xl">
+    <Layout title={`manfredmmm - ${t('common:work').toLowerCase()}`} textColor="white">
+      <div className="bg-gray-darkest text-white-dark h-full flex justify-center items-center">
+        <div className="max-w-xl animate-fade-in">
           <h1 className="text-xl uppercase font-heading">{t('work:title')}</h1>
           <p className="text-xs uppercase mb-4 mt-8">{t('work:current')}</p>
           <h4 className="mb-1">{t('work:ifs')}</h4>

@@ -7,10 +7,10 @@ const Home: NextPage = () => {
   const { t } = useTranslation();
   return (
     <Layout textColor="white">
-      <div className="bg-mmm-home bg-no-repeat bg-center bg-cover h-full flex justify-center items-center">
-        <div className="text-white-dark animate-fade-in">
+      <div className="bg-mmm-home bg-no-repeat bg-center bg-cover h-full flex justify-center items-center text-white-dark">
+        <div className="animate-fade-in">
           <div className="flex justify-center">
-            <svg className="mb-12 stroke-current text-white-dark" width="200px" height="125px" viewBox="0 0 688 438">
+            <svg className="mb-12 stroke-current" width="200px" height="125px" viewBox="0 0 688 438">
               <path 
                 strokeWidth="8" 
                 strokeMiterlimit="10" 
