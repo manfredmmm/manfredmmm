@@ -18,26 +18,32 @@ const Contact: NextPage = () => {
             <a href={`mailto:${t('contact:email')}`}>{t('contact:email')}</a>
           </p>
           <p className="text-center mb-10">
-            <a href="">{t('contact:cv')}</a>
+            <a 
+              href="/pdfs/manfred-cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('contact:cv')}
+            </a>
           </p>
           <div className="flex flex-row text-center space-x-4">
-            <div className="w-1/4 text-center">
-              <a className="bg-gray-dark rounded-full block" href="https://www.linkedin.com/in/manfredmmm" rel="noreferrer" target="_blank">
+            <div className="w-1/4">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://www.linkedin.com/in/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faLinkedinIn} className={styles.social} />
               </a>
             </div>
-            <div className="w-1/4 text-center">
-              <a className="bg-gray-dark rounded-full block" href="https://github.com/manfredmmm" rel="noreferrer" target="_blank">
+            <div className="w-1/4">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://github.com/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faGithubAlt} className={styles.social} />
               </a>
             </div>
-            <div className="w-1/4 text-center">
-              <a className="bg-gray-dark rounded-full block" href="https://twitter.com/manfredmmm" rel="noreferrer" target="_blank">
+            <div className="w-1/4">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://twitter.com/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} className={styles.social} />
               </a>
             </div>
-            <div className="w-1/4 text-center">
-              <a className="bg-gray-dark rounded-full block" href="https://www.instagram.com/manfredmmm/" rel="noreferrer" target="_blank">
+            <div className="w-1/4">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://www.instagram.com/manfredmmm/" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} className={styles.social} />
               </a>
             </div>
