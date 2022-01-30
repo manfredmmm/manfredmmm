@@ -27,40 +27,35 @@ const Header = ({
             <li>
               <Link href="/">
                 <a className="block mb-2">
-                  <span className="inline-block w-10 mr-5">{t('common:b_home')}</span>
-                  <span className="uppercase">{t('common:home')}</span>
+                  <span className="text-xl uppercase mb-6 font-heading">{t('common:home')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/about">
                 <a className="block mb-2 uppercase">
-                  <span className="inline-block w-10 mr-5">{t('common:b_about')}</span>
-                  <span className="uppercase">{t('common:about')}</span>
+                  <span className="text-xl uppercase mb-6 font-heading">{t('common:about')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/work">
                 <a className="block mb-2 uppercase">
-                  <span className="inline-block w-10 mr-5">{t('common:b_work')}</span>
-                  <span className="uppercase">{t('common:work')}</span>
+                  <span className="text-xl uppercase mb-6 font-heading">{t('common:work')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/can">
                 <a className="block mb-2 uppercase">
-                  <span className="inline-block w-10 mr-5">{t('common:b_can')}</span>
-                  <span className="uppercase">{t('common:can')}</span>
+                  <span className="text-xl uppercase mb-6 font-heading">{t('common:can')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/contact">
                 <a className="block mb-2 uppercase">
-                  <span className="inline-block w-10 mr-5">{t('common:b_contact')}</span>
-                  <span className="uppercase">{t('common:contact')}</span>
+                  <span className="text-xl uppercase mb-6 font-heading">{t('common:contact')}</span>
                 </a>
               </Link>
             </li>

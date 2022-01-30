@@ -3,10 +3,5 @@
   "about": "Biografía",
   "work": "Experiencia",
   "can": "Can I use",
-  "contact": "Contacto",
-  "b_home": "000",
-  "b_about": "001",
-  "b_work": "010",
-  "b_can": "011",
-  "b_contact": "100"
+  "contact": "Contacto"
 }

@@ -18,7 +18,7 @@ a.nav span::after {
 }
 a.nav_active {
   top: 20px;
-  right: 40px;
+  right: 20px;
   position: fixed;
   display: block;
   width: 25px;
