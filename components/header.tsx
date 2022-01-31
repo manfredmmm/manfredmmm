@@ -33,28 +33,28 @@ const Header = ({
             </li>
             <li>
               <Link href="/about">
-                <a className="block mb-2 uppercase">
+                <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:about')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/work">
-                <a className="block mb-2 uppercase">
+                <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:work')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/can">
-                <a className="block mb-2 uppercase">
+                <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:can')}</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <a className="block mb-2 uppercase">
+                <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:contact')}</span>
                 </a>
               </Link>

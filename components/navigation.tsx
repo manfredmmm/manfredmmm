@@ -17,17 +17,13 @@ const Navigation = ({
       <a 
         href="#"
         className={`${prev === "" ? 'hidden' : 'fixed'} ${textColor === "white" ? 'bg-left-white' : 'bg-left-black'} top-16 left-0 w-20 h-full bg-no-repeat bg-center bg-50%`}
-      >
-        <span className="hidden">left</span>
-      </a>
+      ></a>
     </Link>
     <Link href={next}>
       <a 
         href="#"
         className={`${next === "" ? 'hidden' : 'fixed'} ${textColor === "white" ? 'bg-right-white' : 'bg-right-black'} top-16 right-0 w-20 h-full bg-no-repeat bg-center bg-50%`}
-      >
-        <span className="hidden">right</span>
-      </a>
+      ></a>
     </Link>
   </>
 );

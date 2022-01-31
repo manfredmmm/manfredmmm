@@ -28,22 +28,26 @@ const Contact: NextPage = () => {
           </p>
           <div className="flex flex-row text-center space-x-4">
             <div className="w-1/4">
-              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://www.linkedin.com/in/manfredmmm" rel="noreferrer" target="_blank">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10 transition duration-200 ease-linear hover:ease-linear hover:bg-gray-light hover:text-gray-darkest" href="https://www.linkedin.com/in/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faLinkedinIn} className={styles.social} />
               </a>
             </div>
             <div className="w-1/4">
-              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://github.com/manfredmmm" rel="noreferrer" target="_blank">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10 transition duration-200 ease-linear hover:ease-linear hover:bg-gray-light hover:text-gray-darkest" href="https://github.com/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faGithubAlt} className={styles.social} />
               </a>
             </div>
             <div className="w-1/4">
-              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://twitter.com/manfredmmm" rel="noreferrer" target="_blank">
+              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10 transition duration-200 ease-linear hover:ease-linear hover:bg-gray-light hover:text-gray-darkest" href="https://twitter.com/manfredmmm" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} className={styles.social} />
               </a>
             </div>
             <div className="w-1/4">
-              <a className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10" href="https://www.instagram.com/manfredmmm/" rel="noreferrer" target="_blank">
+              <a 
+                className="bg-gray-dark rounded-full block w-10 h-10 m-auto leading-10 transition duration-200 ease-linear hover:ease-linear hover:bg-gray-light hover:text-gray-darkest"
+                href="https://www.instagram.com/manfredmmm/"
+                rel="noreferrer"
+                target="_blank">
                 <FontAwesomeIcon icon={faInstagram} className={styles.social} />
               </a>
             </div>
