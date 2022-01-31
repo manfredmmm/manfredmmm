@@ -19,7 +19,7 @@ const Contact: NextPage = () => {
           </p>
           <p className="text-center mb-10">
             <a 
-              href="/pdfs/manfred-cv.pdf"
+              href="/pdf/cv-manfred.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
