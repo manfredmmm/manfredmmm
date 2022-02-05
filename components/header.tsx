@@ -14,6 +14,11 @@ const Header = ({
   const { t } = useTranslation();
   return (
     <header className="flex text-center text-black">
+      <Link href="/">
+        <a className="block fixed top-4 left-5 w-7 h-7">
+          <span className={`${textColor === 'white' ? 'bg-mmm-icon-white' : 'bg-mmm-icon-black' } block bg-no-repeat bg-contain bg-center	h-full`}></span>
+        </a>
+      </Link>
       <a 
         href="#"
         onClick={() => setShow(!show)}
