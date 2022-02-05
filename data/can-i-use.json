@@ -1,0 +1,85 @@
+{
+  "skills": [{
+      "name": "html",
+      "keys": [
+        "html5",
+        "pug",
+        "haml",
+        "slim",
+        "seo on-page",
+        "handlebars"
+      ]
+    }, {
+      "name": "css",
+      "keys": [
+        "postcss",
+        "css3",
+        "stylus",
+        "less",
+        "animations",
+        "responsive layouts"
+      ]
+    }, {
+      "name": "javascript",
+      "keys": [
+        "es6",
+        "typescript",
+        "vanilla",
+        "jquery",
+        "nodejs",
+        "ajax",
+        "threejs",
+        "gsap"
+      ]
+    }, {
+      "name": "javascript frameworks",
+      "keys": [
+        "angularjs",
+        "backbonejs",
+        "react",
+        "nextjs"
+      ]
+    }, {
+      "name": "js task runner",
+      "keys": [
+        "webpack",
+        "gulp",
+        "grunt"
+      ]
+    }, {
+      "name": "ruby frameworks",
+      "keys": [
+        "ruby on rails",
+        "sinatra"
+      ]
+    }, {
+      "name": "web design",
+      "keys": [
+        "responsive design",
+        "ux/ui",
+        "web design"
+      ]
+    }, {
+      "name": "design tools",
+      "keys": [
+        "illustrator",
+        "photoshop",
+        "sketch"
+      ]
+    }, {
+      "name": "source control",
+      "keys": [
+        "git",
+        "mercurial",
+        "svn"
+      ]
+    }, {
+      "name": "others",
+      "keys": [
+        "php",
+        "c#",
+        "aws micro services"
+      ]
+    }
+  ]
+}

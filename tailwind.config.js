@@ -68,9 +68,9 @@ module.exports = {
         },
       },
       animation: {
-        'fade-in': 'fade-in 1s ease-in',
-        'fade-in-up': 'fade-in-up 1s ease-in',
-        'fade-border-bottom': 'fade-border-bottom 1s ease-in',
+        'fade-in': 'fade-in 1.5s ease-in',
+        'fade-in-up': 'fade-in-up 1.5s ease-in',
+        'fade-border-bottom': 'fade-border-bottom 1.5s ease-in',
       },
     },
   },
