@@ -8,10 +8,10 @@ const Skill = ({
   items
 }: SkillProps) => (
   <div className="mb-3">
-    <h4 className="uppercase font-heading font-semibold">
+    <h4 className="uppercase font-heading font-semibold mb-1">
       {name}
     </h4>
-    <ul>
+    <ul className="list-disc list-inside">
       {items.map((item, index) => (
         <li key={index}>
           {item}

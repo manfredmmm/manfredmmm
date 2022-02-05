@@ -2,83 +2,84 @@
   "skills": [{
       "name": "html",
       "keys": [
-        "html5",
-        "pug",
-        "haml",
-        "slim",
-        "seo on-page",
-        "handlebars"
+        "HTML5",
+        "Pug",
+        "Haml",
+        "Slim",
+        "SEO on-page",
+        "Handlebars"
       ]
     }, {
       "name": "css",
       "keys": [
-        "postcss",
-        "css3",
-        "stylus",
-        "less",
-        "animations",
-        "responsive layouts"
+        "PostCSS",
+        "CSS3",
+        "Stylus",
+        "Less",
+        "SASS",
+        "Animations",
+        "Responsive Layouts"
       ]
     }, {
       "name": "javascript",
       "keys": [
-        "es6",
-        "typescript",
-        "vanilla",
-        "jquery",
-        "nodejs",
-        "ajax",
-        "threejs",
-        "gsap"
+        "ES6",
+        "TypeScript",
+        "Vanilla",
+        "JQuery",
+        "NodeJS",
+        "AJAX",
+        "ThreeJS",
+        "GSAP"
       ]
     }, {
-      "name": "javascript frameworks",
+      "name": "Javascript Frameworks",
       "keys": [
-        "angularjs",
-        "backbonejs",
-        "react",
-        "nextjs"
+        "AngularJS",
+        "BackboneJS",
+        "React",
+        "NextJS"
       ]
     }, {
       "name": "js task runner",
       "keys": [
-        "webpack",
-        "gulp",
-        "grunt"
+        "Webpack",
+        "Gulp",
+        "Grunt"
       ]
     }, {
       "name": "ruby frameworks",
       "keys": [
-        "ruby on rails",
-        "sinatra"
+        "Ruby on Rails",
+        "Sinatra"
       ]
     }, {
-      "name": "web design",
+      "name": "Web Design",
       "keys": [
-        "responsive design",
-        "ux/ui",
-        "web design"
+        "Responsive Design",
+        "UX/UI",
+        "Web Design"
       ]
     }, {
-      "name": "design tools",
+      "name": "Design Tools",
       "keys": [
-        "illustrator",
-        "photoshop",
-        "sketch"
+        "Illustrator",
+        "Photoshop",
+        "Sketch"
       ]
     }, {
-      "name": "source control",
+      "name": "Source Control",
       "keys": [
-        "git",
-        "mercurial",
-        "svn"
+        "GIT",
+        "Mercurial",
+        "SVN"
       ]
     }, {
-      "name": "others",
+      "name": "Others",
       "keys": [
-        "php",
-        "c#",
-        "aws micro services"
+        "PHP",
+        "C#",
+        "AWS Micro Services"
       ]
     }
   ]
