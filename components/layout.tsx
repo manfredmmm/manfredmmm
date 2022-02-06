@@ -6,12 +6,14 @@ type LayoutProps = {
   children: ReactNode;
   title?: string;
   textColor?: string;
+  page?: string;
 }
 
 const Layout = ({
   children,
   title = 'manfredmmm - web developer',
-  textColor = 'black'
+  textColor = 'black',
+  page = '',
 }: LayoutProps) => (
   <>
     <Head>
@@ -52,7 +54,7 @@ const Layout = ({
       <link rel="icon" href="/icons/mmm-favicon.png" />
     </Head>
     <Header textColor={textColor}/>
-    <main className="p-1 h-screen text-grey-darkest">{children}</main>
+    <main className={`text-grey-darkest ${page === 'can' ? 'min-h-screen' : 'h-screen' }`}>{children}</main>
   </>
 );
 

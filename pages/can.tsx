@@ -10,7 +10,7 @@ const Can: NextPage = () => {
   const { t } = useTranslation();
   const [query, setQuery] = useState('');
   return (
-    <Layout title={`manfredmmm - ${t('common:can').toLowerCase()}`}>
+    <Layout title={`manfredmmm - ${t('common:can').toLowerCase()}`} page="can">
       <div className="bg-white-darkest h-full flex justify-center items-center px-10 lg:px-20 py-14">
         <div className="animate-fade-in lg:w-3/4">
           <div className="w-full bg-gray-darkest text-center text-white-darkest h-16 mb-2 flex justify-center items-center">
