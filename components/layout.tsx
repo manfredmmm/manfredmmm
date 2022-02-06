@@ -52,7 +52,7 @@ const Layout = ({
       <link rel="icon" href="/icons/mmm-favicon.png" />
     </Head>
     <Header textColor={textColor}/>
-    <main className="p-2 h-screen text-grey-darkest">{children}</main>
+    <main className="p-1 h-screen text-grey-darkest">{children}</main>
   </>
 );
 

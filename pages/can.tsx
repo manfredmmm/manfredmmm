@@ -11,8 +11,8 @@ const Can: NextPage = () => {
   const [query, setQuery] = useState('');
   return (
     <Layout title={`manfredmmm - ${t('common:can').toLowerCase()}`}>
-      <div className="bg-white-darkest h-full flex justify-center items-center">
-        <div className="animate-fade-in w-3/4">
+      <div className="bg-white-darkest h-full flex justify-center items-center px-10 lg:px-20 py-14">
+        <div className="animate-fade-in lg:w-3/4">
           <div className="w-full bg-gray-darkest text-center text-white-darkest h-16 mb-2 flex justify-center items-center">
             <h3 className="font-semibold text-2xl">Can I use</h3>
             <input 
@@ -24,7 +24,7 @@ const Can: NextPage = () => {
             ></input>
             <span className="font-semibold text-2xl">?</span>
           </div>
-          <div className="w-full bg-gray p-8 grid grid-cols-3 gap-2 texr-gray-darkest">
+          <div className="w-full bg-gray text-gray-darkest p-8 lg:grid lg:grid-cols-3 lg:gap-2">
             {skillsData.skills
               .filter(item => 
                 item.name.toLowerCase().includes(query) || 
