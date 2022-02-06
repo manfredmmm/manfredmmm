@@ -33,7 +33,7 @@
         "GSAP"
       ]
     }, {
-      "name": "Javascript Frameworks",
+      "name": "javascript frameworks",
       "keys": [
         "AngularJS",
         "BackboneJS",
@@ -54,28 +54,28 @@
         "Sinatra"
       ]
     }, {
-      "name": "Web Design",
+      "name": "web design",
       "keys": [
         "Responsive Design",
         "UX/UI",
         "Web Design"
       ]
     }, {
-      "name": "Design Tools",
+      "name": "design tools",
       "keys": [
         "Illustrator",
         "Photoshop",
         "Sketch"
       ]
     }, {
-      "name": "Source Control",
+      "name": "source control",
       "keys": [
         "GIT",
         "Mercurial",
         "SVN"
       ]
     }, {
-      "name": "Others",
+      "name": "others",
       "keys": [
         "PHP",
         "C#",

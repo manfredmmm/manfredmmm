@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import React, { useState } from 'react'
 import Layout from 'components/layout'
 import Navigation from 'components/navigation'
 import useTranslation from 'next-translate/useTranslation'
@@ -7,7 +8,7 @@ import Skill from 'components/skill-data'
 
 const Can: NextPage = () => {
   const { t } = useTranslation();
-
+  const [query, setQuery] = useState('');
   return (
     <Layout title={`manfredmmm - ${t('common:can').toLowerCase()}`}>
       <div className="bg-white-darkest h-full flex justify-center items-center">
@@ -18,17 +19,25 @@ const Can: NextPage = () => {
               type="text"
               placeholder="skill (ask me for html or js)"
               className="text-sm w-1/3 h-2/3 text-center bg-gray-darkest mx-3 border-b-2 border-white text-white-darkest outline-0 transition animate-fade-in hover:bg-gray-dark"
+              onChange={e => setQuery(e.target.value.toLowerCase())}
+              value={query}
             ></input>
             <span className="font-semibold text-2xl">?</span>
           </div>
           <div className="w-full bg-gray p-8 grid grid-cols-3 gap-2 texr-gray-darkest">
-            {skillsData.skills.map((skill, index) => (
-              <Skill
-                key={index}
-                name={skill.name}
-                items={skill.keys}
-              />
-            ))}
+            {skillsData.skills
+              .filter(item => 
+                item.name.toLowerCase().includes(query) || 
+                item.keys.map(k => k.toLowerCase()).includes(query)
+              )
+              .map((skill, index) => (
+                <Skill
+                  key={index}
+                  name={skill.name}
+                  items={skill.keys}
+                />
+              ))
+            }
           </div>
         </div>
       </div>
