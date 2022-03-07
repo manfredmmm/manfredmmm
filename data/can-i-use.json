@@ -23,6 +23,7 @@
     }, {
       "name": "javascript",
       "keys": [
+        "React",
         "ES6",
         "TypeScript",
         "Vanilla",
@@ -37,7 +38,6 @@
       "keys": [
         "AngularJS",
         "BackboneJS",
-        "React",
         "NextJS"
       ]
     }, {
