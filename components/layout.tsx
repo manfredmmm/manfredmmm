@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import Head from 'next/head'
 import Header from 'components/header'
 import useTranslation from 'next-translate/useTranslation'
+import Script from 'next/script'
 
 type LayoutProps = {
   children: ReactNode;
@@ -54,11 +55,16 @@ const Layout = ({
         />
         <meta name="twitter:image" content="https://manfredmmm.com/images/manfredmmm-web.png" />
         <link rel="icon" href="/icons/mmm-favicon.png" />
-        <script
+      </Head>
+      <Header textColor={textColor}/>
+      <main className={`text-grey-darkest ${page === 'can' ? 'min-h-screen lg:h-screen' : 'h-screen' }`}>{children}</main>
+      <footer>
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_ANALYTICS_ID}`}
         />
-        <script
+        <Script
+          id="settingGA"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -70,9 +76,7 @@ const Layout = ({
             `,
           }}
         />
-      </Head>
-      <Header textColor={textColor}/>
-      <main className={`text-grey-darkest ${page === 'can' ? 'min-h-screen lg:h-screen' : 'h-screen' }`}>{children}</main>
+      </footer>
     </>
   );
 };
