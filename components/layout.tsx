@@ -12,7 +12,7 @@ type LayoutProps = {
 
 const Layout = ({
   children,
-  title = 'manfredmmm - web developer',
+  title = 'manfredmmm - I do websites',
   textColor = 'black',
   page = '',
 }: LayoutProps) => {
@@ -20,9 +20,13 @@ const Layout = ({
   return (
     <>
       <Head>
-        <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>{title}</title>
+        <meta
+          name="title"
+          content={t('common:meta.title')}
+        />
         <meta 
           name="description" 
           content={t('common:meta.description')}
@@ -31,25 +35,24 @@ const Layout = ({
           name="keywords" 
           content={t('common:meta.keywords')}
         />
-        <meta property="fb:app_id" content="302184056577324" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://manfredmmm.com" />
         <meta property="og:title" content={t('common:meta.title')} />
         <meta 
           property="og:description"
           content={t('common:meta.description')}
         />
+        <meta property="og:image" content="https://manfredmmm.com/images/manfredmmm-web.png" />
         <meta property="og:site_name" content="manfredmmm" />
-        <meta property="og:url" content="http://manfredmmm.com" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://manfredmmm.com/images/manfred-web.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://manfredmmm.com" />
         <meta name="twitter:title" content={t('common:meta.title')} />
         <meta 
           name="twitter:description" 
           content={t('common:meta.description')}
         />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="manfredmmm" />
-        <meta name="twitter:image" content="http://manfredmmm.com/images/manfred-web.png" />
-        <meta name="twitter:domain" content="http://manfredmmm.com" />
+        <meta name="twitter:image" content="https://manfredmmm.com/images/manfredmmm-web.png" />
         <link rel="icon" href="/icons/mmm-favicon.png" />
       </Head>
       <Header textColor={textColor}/>
