@@ -1,85 +1,92 @@
 {
   "skills": [{
       "name": "html",
-      "keys": [
-        "HTML5",
-        "Pug",
-        "Haml",
-        "Slim",
-        "SEO on-page",
-        "Handlebars"
+      "items": [
+        "html5",
+        "pug",
+        "haml",
+        "slim",
+        "seo",
+        "handlebars"
       ]
     }, {
       "name": "css",
-      "keys": [
-        "PostCSS",
-        "CSS3",
-        "Stylus",
-        "Less",
-        "SASS",
-        "Animations",
-        "Responsive Layouts"
+      "items": [
+        "postcss",
+        "css3",
+        "stylus",
+        "less",
+        "sass",
+        "animations",
+        "responsive"
       ]
     }, {
       "name": "javascript",
-      "keys": [
-        "React",
-        "ES6",
-        "TypeScript",
-        "Vanilla",
-        "JQuery",
-        "NodeJS",
-        "AJAX",
-        "ThreeJS",
-        "GSAP"
+      "items": [
+        "react",
+        "es6",
+        "typescript",
+        "vanilla",
+        "jquery",
+        "nodejs",
+        "ajax",
+        "threejs",
+        "gsap"
       ]
     }, {
       "name": "javascript frameworks",
-      "keys": [
-        "AngularJS",
-        "BackboneJS",
-        "NextJS"
+      "items": [
+        "angularjs",
+        "backbonejs",
+        "nextjs"
       ]
     }, {
       "name": "js task runner",
-      "keys": [
-        "Webpack",
-        "Gulp",
-        "Grunt"
+      "items": [
+        "webpack",
+        "gulp",
+        "grunt"
       ]
     }, {
       "name": "ruby frameworks",
-      "keys": [
-        "Ruby on Rails",
-        "Sinatra"
+      "items": [
+        "ruby on rails",
+        "sinatra"
       ]
     }, {
       "name": "web design",
-      "keys": [
-        "Responsive Design",
-        "UX/UI",
-        "Web Design"
+      "items": [
+        "responsive design",
+        "ux/ui",
+        "web design"
       ]
     }, {
       "name": "design tools",
-      "keys": [
-        "Illustrator",
-        "Photoshop",
-        "Sketch"
+      "items": [
+        "illustrator",
+        "photoshop",
+        "sketch"
       ]
     }, {
       "name": "source control",
-      "keys": [
-        "GIT",
-        "Mercurial",
-        "SVN"
+      "items": [
+        "git",
+        "mercurial",
+        "svn"
       ]
     }, {
+        "name": "fe toolkits",
+        "items": [
+          "tailwindcss",
+          "bootstrap",
+          "foundation"
+        ]
+    }, {
       "name": "others",
-      "keys": [
-        "PHP",
-        "C#",
-        "AWS Micro Services"
+      "items": [
+        "php",
+        "c#",
+        "aws"
       ]
     }
   ]
