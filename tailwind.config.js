@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'mmm-home': "url('/images/mmm.gif')",
+        'mmm-home': "url('/images/mmm.webp')",
         'mmm-about': "url('/images/manfred-background.png')",
         'mmm-icon-black': "url('/icons/mmm-triangles-black.svg')",
         'mmm-icon-white': "url('/icons/mmm-triangles-white.svg')",
