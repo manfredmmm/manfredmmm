@@ -15,7 +15,6 @@ const Can: NextPage = () => {
     let searchValue = event.target.value.toLowerCase();
     setQuery(searchValue);
     let skills = skillsData.skills.map(skill => skill.items.map(item => item.toLowerCase()));
-    console.log(skills);
     setSkills(
       skillsData.skills
         .filter((item: any) => item.items.includes(searchValue) || item.name.includes(searchValue) || searchValue === '')
