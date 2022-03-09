@@ -14,7 +14,6 @@ const Can: NextPage = () => {
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     let searchValue = event.target.value.toLowerCase();
     setQuery(searchValue);
-    let skills = skillsData.skills.map(skill => skill.items.map(item => item.toLowerCase()));
     setSkills(
       skillsData.skills
         .filter((item: any) => item.items.includes(searchValue) || item.name.includes(searchValue) || searchValue === '')
@@ -44,7 +43,10 @@ const Can: NextPage = () => {
                 items={skill.items}
               />
             )}
-            <span className={`${filteredSkills.length === 0 ? 'block' : 'hidden'}`}>{t('can:no_data')}</span>
+            <span className={`${filteredSkills.length === 0 ? 'block' : 'hidden'}`}>
+              {t('can:no_data')}
+              <span className="ml-2">😊</span>
+            </span>
           </div>
         </div>
       </div>
