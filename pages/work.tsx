@@ -11,9 +11,11 @@ const Work: NextPage = () => {
         <div className="max-w-xl animate-fade-in">
           <h1 className="text-xl uppercase font-heading">{t('work:title')}</h1>
           <p className="text-xs uppercase mb-4 mt-8">{t('work:current')}</p>
+          <h4 className="mb-1">{t('work:factorial')}</h4>
+          <p className="text-xs mb-4">{t('work:factorial_description')}</p>
+          <p className="text-xs uppercase mb-4 mt-8">{t('work:previous')}</p>
           <h4 className="mb-1">{t('work:ifs')}</h4>
           <p className="text-xs mb-4">{t('work:ifs_description')}</p>
-          <p className="text-xs uppercase mb-4 mt-8">{t('work:previous')}</p>
           <h4 className="mb-1">{t('work:beezy')}</h4>
           <p className="text-xs mb-4">{t('work:beezy_description')}</p>
           <h4 className="mb-1">{t('work:adverway')}</h4>

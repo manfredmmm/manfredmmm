@@ -1,7 +1,9 @@
 {
   "title": "Experience",
   "current": "Currently",
-  "ifs": "Inforserveis - Cloud Active Reception - Software engineer",
+  "factorial": "Factorial HR - Software Engineer",
+  "factorial_description": "Human Resources software that helps you to manage time, payroll, talent and documents in one centralized system",
+  "ifs": "Inforserveis - Cloud Active Reception - Software Engineer",
   "ifs_description": "Application to manage the day to day in dealerships and workshops. It also allows brands to centralize all data",
   "previous": "Previously",
   "beezy": "Beezy - Frontend developer",
