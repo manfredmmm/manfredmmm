@@ -12,22 +12,35 @@ const Work: NextPage = () => {
           <h1 className="text-xl uppercase font-heading">{t('work:title')}</h1>
           <p className="text-xs uppercase mb-4 mt-8">{t('work:current')}</p>
           <h4 className="mb-1">{t('work:factorial')}</h4>
-          <p className="text-xs mb-4">{t('work:factorial_description')}</p>
+          <p className="mb-4 text-xs">
+            <span className="block text-sm mb-1">{t('work:factorial_description')}</span>
+            <span>{t('work:factorial_stack')}</span>
+          </p>
           <p className="text-xs uppercase mb-4 mt-8">{t('work:previous')}</p>
           <h4 className="mb-1">{t('work:ifs')}</h4>
-          <p className="text-xs mb-4">{t('work:ifs_description')}</p>
+          <p className="text-xs mb-4">
+            <span className="block text-sm mb-1">{t('work:ifs_description')}</span>
+            <span>{t('work:ifs_stack')}</span>
+          </p>
           <h4 className="mb-1">{t('work:beezy')}</h4>
-          <p className="text-xs mb-4">{t('work:beezy_description')}</p>
+          <p className="text-xs mb-4">
+            <span className="block text-sm mb-1">{t('work:beezy_description')}</span>
+            <span>{t('work:beezy_stack')}</span>
+          </p>
           <h4 className="mb-1">{t('work:adverway')}</h4>
-          <p className="text-xs mb-4">{t('work:adverway_description')}</p>
+          <p className="text-xs mb-4">
+            <span className="block text-sm mb-1">{t('work:adverway_description')}</span>
+            <span>{t('work:adverway_stack')}</span>
+          </p>
           <h4 className="mb-1">{t('work:imesmes')}</h4>
           <p className="text-xs mb-4">
-            <span>{t('work:imesmes_description')}</span>
-            <br />
-            <span>{t('work:imesmes_description_2')}</span>
-          </p>
+            <span className="block text-sm mb-1">{t('work:imesmes_description')}</span>
+            <span>{t('work:imesmes_stack')}</span></p>
           <h4 className="mb-1">{t('work:i3dat')}</h4>
-          <p className="text-xs mb-4">{t('work:i3dat_description')}</p>
+          <p className="text-xs mb-4">
+            <span className="block text-sm mb-1">{t('work:i3dat_description')}</span>
+            <span>{t('work:i3dat_stack')}</span>
+          </p>
         </div>
       </div>
       <Navigation prev="/about" next="/can" />

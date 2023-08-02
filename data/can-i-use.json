@@ -12,6 +12,7 @@
     }, {
       "name": "css",
       "items": [
+        "design system",
         "postcss",
         "css3",
         "stylus",
@@ -75,12 +76,19 @@
         "svn"
       ]
     }, {
-        "name": "fe toolkits",
-        "items": [
-          "tailwindcss",
-          "bootstrap",
-          "foundation"
-        ]
+      "name": "fe toolkits",
+      "items": [
+        "tailwindcss",
+        "bootstrap",
+        "foundation"
+      ]
+    }, {
+      "name": "testing",
+      "items": [
+        "rspec",
+        "cypress",
+        "jest"
+      ]
     }, {
       "name": "others",
       "items": [
