@@ -54,7 +54,7 @@ const Contact: NextPage = () => {
           </div>
         </div>
       </div>
-      <Navigation prev="/can" next="" textColor="white" />
+      <Navigation prev="/can" textColor="white" />
     </Layout>
   );
 }

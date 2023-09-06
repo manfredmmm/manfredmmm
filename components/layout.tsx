@@ -18,6 +18,7 @@ const Layout = ({
   page = '',
 }: LayoutProps) => {
   const { t } = useTranslation();
+  
   return (
     <>
       <Head>

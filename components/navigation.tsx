@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 
 type NavigationProps = {
-  prev: string;
-  next: string;
-  textColor?: string;
+  prev?: string;
+  next?: string;
+  textColor?: "white" | "black";
 }
 
 const Navigation = ({
@@ -13,19 +13,18 @@ const Navigation = ({
   textColor = 'black',
 }: NavigationProps) => (
   <>
-    <Link href={prev}>
-      <a 
-        href="#"
-        className={`${prev === "" ? 'hidden' : 'fixed'} ${textColor === "white" ? 'bg-left-white' : 'bg-left-black'} top-16 left-0 w-10 lg:w-20 h-full bg-no-repeat bg-center bg-50%`}
-      ></a>
-    </Link>
-    <Link href={next}>
-      <a 
-        href="#"
-        className={`${next === "" ? 'hidden' : 'fixed'} ${textColor === "white" ? 'bg-right-white' : 'bg-right-black'} top-16 right-0 w-10 lg:w-20 h-full bg-no-repeat bg-center bg-50%`}
-      ></a>
-    </Link>
+    {prev && (
+      <Link href={prev}>
+        <a className={`bg-left-${textColor} fixed top-16 left-0 w-10 lg:w-20 h-full bg-no-repeat bg-center bg-50%`} />
+      </Link>
+    )}
+    {next && (
+      <Link href={next}>
+        <a className={`bg-right-${textColor} fixed top-16 right-0 w-10 lg:w-20 h-full bg-no-repeat bg-center bg-50%`} />
+      </Link>
+    )}
   </>
-);
+)
+
 
 export default Navigation;

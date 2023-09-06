@@ -5,6 +5,7 @@ import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
+
   return (
     <Layout textColor="white">
       <div className="bg-mmm-home bg-no-repeat bg-center bg-cover h-full flex justify-center items-center text-white-dark">
@@ -29,7 +30,7 @@ const Home: NextPage = () => {
           </h2>
         </div>
       </div>
-      <Navigation prev="" next="/about" textColor="white" />
+      <Navigation next="/about" textColor="white" />
     </Layout>
   );
 };

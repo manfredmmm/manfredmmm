@@ -5,6 +5,7 @@ import useTranslation from 'next-translate/useTranslation'
 
 const Work: NextPage = () => {
   const { t } = useTranslation();
+  
   return (
     <Layout title={`manfredmmm - ${t('common:work').toLowerCase()}`} textColor="white">
       <div className="bg-gray-darkest text-white-dark h-full lg:h-screen flex justify-center items-center px-10 lg:px-20 py-14 lg:py-0">
