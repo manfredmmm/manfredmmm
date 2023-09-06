@@ -8,7 +8,7 @@ const Work: NextPage = () => {
   
   return (
     <Layout title={`manfredmmm - ${t('common:work').toLowerCase()}`} textColor="white">
-      <div className="bg-gray-darkest text-white-dark h-full lg:h-screen flex justify-center items-center px-10 lg:px-20 py-14 lg:py-0">
+      <div className="bg-gray-darkest text-white-dark flex justify-center items-center px-10 lg:px-20 py-14 lg:py-0">
         <div className="max-w-xl animate-fade-in">
           <h1 className="text-xl uppercase font-heading mb-4">{t('work:title')}</h1>
           <span className="text-xs uppercase">{t('work:current')}</span>

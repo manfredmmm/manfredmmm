@@ -58,7 +58,7 @@ const Layout = ({
         <link rel="icon" href="/icons/mmm-favicon.png" />
       </Head>
       <Header textColor={textColor}/>
-      <main className={`text-grey-darkest ${page === 'can' ? 'min-h-screen lg:h-screen' : 'h-screen' }`}>{children}</main>
+      <main className={`text-grey-darkest ${page === 'can' || page === 'work' ? 'min-h-screen lg:h-screen' : 'h-screen' }`}>{children}</main>
       <footer>
         <Script
           async
