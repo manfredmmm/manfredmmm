@@ -60,31 +60,3 @@ a.nav_active span:after {
   transform: translateY(0);
   transition-duration: 1s;
 }
-/* .menu_active li {
-  opacity: 0;
-}
-.menu_active li:nth-child(1) {
-  animation: fadeInDown .3s ease-out .8s normal 1;
-}
-.menu_active li:nth-child(2) {
-  animation: fadeInDown .3s ease-out 1s normal 1;
-}
-.menu_active li:nth-child(3) {
-  animation: fadeInDown .3s ease-out 1.2s normal 1;
-}
-.menu_active li:nth-child(4) {
-  animation: fadeInDown .3s ease-out 1.4s normal 1;
-}
-.menu_active li:nth-child(5) {
-  animation: fadeInDown .3s ease-out 1.6s normal 1;
-} */
-/* @keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
