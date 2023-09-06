@@ -14,7 +14,7 @@ const Header = ({
   const { t } = useTranslation();
   return (
     <header className="flex text-center text-black">
-      <Link href="/">
+      <Link legacyBehavior href="/">
         <a className="fixed top-4 left-5 w-8 h-8">
           <span className={`${textColor === 'white' ? 'bg-mmm-icon-white' : 'bg-mmm-icon-black' } block bg-no-repeat bg-contain bg-center h-full`}></span>
         </a>
@@ -30,35 +30,35 @@ const Header = ({
         <nav className="w-full h-full flex justify-center items-center">
           <ul>
             <li>
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:home')}</span>
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/about">
+              <Link legacyBehavior href="/about">
                 <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:about')}</span>
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/work">
+              <Link legacyBehavior href="/work">
                 <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:work')}</span>
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/can">
+              <Link legacyBehavior href="/can">
                 <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:can')}</span>
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/contact">
+              <Link legacyBehavior href="/contact">
                 <a className="block mb-2">
                   <span className="text-xl uppercase mb-6 font-heading">{t('common:contact')}</span>
                 </a>
