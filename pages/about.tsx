@@ -8,7 +8,7 @@ const About: NextPage = () => {
   return (
     <Layout title={`manfredmmm - ${t('common:about').toLowerCase()}`}>
       <div className="bg-white-darkest h-full lg:h-screen flex flex-row justify-center items-center px-10 lg:px-20 py-14 lg:py-0">
-        <div className="lg:basis-1/2 lg:ml-20 animate-fade-in">
+        <div className="lg:basis-1/2 animate-fade-in">
           <h1 className="text-xl uppercase mb-6 font-heading">{t('about:title')}</h1>
           <p className="mb-2">{t('about:p1')}</p>
           <p>{t('about:p2')}</p>

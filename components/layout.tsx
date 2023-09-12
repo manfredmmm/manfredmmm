@@ -8,17 +8,15 @@ type LayoutProps = {
   children: ReactNode;
   title?: string;
   textColor?: string;
-  page?: string;
 }
 
 const Layout = ({
   children,
   title = 'manfredmmm - I do websites',
   textColor = 'black',
-  page = '',
 }: LayoutProps) => {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <Head>
@@ -58,7 +56,7 @@ const Layout = ({
         <link rel="icon" href="/icons/mmm-favicon.png" />
       </Head>
       <Header textColor={textColor}/>
-      <main className={`text-grey-darkest ${page === 'can' || page === 'work' ? 'min-h-screen lg:h-screen' : 'h-screen' }`}>{children}</main>
+      <main className="text-grey-darkest h-screen">{children}</main>
       <footer>
         <Script
           async
